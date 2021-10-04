@@ -456,8 +456,8 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"i87aF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _calculator = require("./Calculator");
-var _calculatorDefault = parcelHelpers.interopDefault(_calculator);
+var _calculatorJs = require("./Calculator.js");
+var _calculatorJsDefault = parcelHelpers.interopDefault(_calculatorJs);
 const numberButtons = document.querySelectorAll('[data-number]');
 const operationButtons = document.querySelectorAll('[data-operation]');
 const equalsButton = document.querySelector('[data-equals]');
@@ -465,7 +465,7 @@ const clearButton = document.querySelector('[data-clear]');
 const negativeButton = document.querySelector('[data-negative]');
 const previousOperandTextElement = document.querySelector('[data-previous-operand]');
 const currentOperandTextElement = document.querySelector('[data-current-operand]');
-const calculator = new _calculatorDefault.default(previousOperandTextElement, currentOperandTextElement);
+const calculator = new _calculatorJsDefault.default(previousOperandTextElement, currentOperandTextElement);
 numberButtons.forEach((button)=>{
     button.addEventListener('click', ()=>{
         calculator.appendNumber(button.innerText);
@@ -489,7 +489,7 @@ clearButton.addEventListener('click', ()=>{
 negativeButton.addEventListener('click', ()=>calculator.appendSymbol()
 );
 
-},{"./Calculator":"cDoSJ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cDoSJ":[function(require,module,exports) {
+},{"./Calculator.js":"cDoSJ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cDoSJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class Calculator {
@@ -608,6 +608,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["kAaS7","i87aF"], "i87aF", "parcelRequire5be7")
+},{}]},["kAaS7","i87aF"], "i87aF", "parcelRequireb05d")
 
 //# sourceMappingURL=index.147655b4.js.map
