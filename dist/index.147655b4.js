@@ -455,7 +455,140 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"i87aF":[function(require,module,exports) {
-console.log('Hello world!');
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _calculator = require("./Calculator");
+var _calculatorDefault = parcelHelpers.interopDefault(_calculator);
+const numberButtons = document.querySelectorAll('[data-number]');
+const operationButtons = document.querySelectorAll('[data-operation]');
+const equalsButton = document.querySelector('[data-equals]');
+const clearButton = document.querySelector('[data-clear]');
+const previousOperandTextElement = document.querySelector('[data-previous-operand]');
+const currentOperandTextElement = document.querySelector('[data-current-operand]');
+const calculator = new _calculatorDefault.default(previousOperandTextElement, currentOperandTextElement);
+numberButtons.forEach((button)=>{
+    button.addEventListener('click', ()=>{
+        calculator.appendNumber(button.innerText);
+        calculator.updateDisplay();
+    });
+});
+operationButtons.forEach((button)=>{
+    button.addEventListener('click', ()=>{
+        calculator.chooseOperation(button.innerText);
+        calculator.updateDisplay();
+    });
+});
+equalsButton.addEventListener('click', (button)=>{
+    calculator.compute();
+    calculator.updateDisplay();
+});
+clearButton.addEventListener('click', (button)=>{
+    calculator.clear();
+    calculator.updateDisplay();
+});
+
+},{"./Calculator":"cDoSJ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cDoSJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class Calculator {
+    constructor(previousOperandTextElement, currentOperandTextElement){
+        this.previousOperandTextElement = previousOperandTextElement;
+        this.currentOperandTextElement = currentOperandTextElement;
+        this.clear();
+    }
+    clear() {
+        console.log('clear screen');
+        this.currentOperand = '';
+        this.previousOperand = '';
+        this.operation = undefined;
+    }
+    appendNumber(number) {
+        if (number === ',' && this.currentOperand.includes(',')) return;
+        this.currentOperand = this.currentOperand.toString() + number.toString();
+    }
+    chooseOperation(operation) {
+        console.log(operation);
+        if (this.currentOperand === '') return;
+        if (this.previousOperand !== '') this.compute();
+        this.operation = operation;
+        this.previousOperand = this.currentOperand;
+        this.currentOperand = '';
+    }
+    compute() {
+        let computation;
+        const prev = parseFloat(this.previousOperand);
+        const current = parseFloat(this.currentOperand);
+        if (isNaN(prev) || isNaN(current)) return;
+        switch(this.operation){
+            case '+':
+                computation = prev + current;
+                break;
+            case '-':
+                computation = prev - current;
+                break;
+            case 'x':
+                computation = prev * current;
+                break;
+            case '/':
+                computation = prev / current;
+                break;
+            default:
+                return;
+        }
+        this.currentOperand = computation;
+        this.operation = undefined;
+        this.previousOperand = '';
+    }
+    getDisplayNumber(number) {
+        const stringNumber = number.toString();
+        const integerDigits = parseFloat(stringNumber.split('.')[0]);
+        const decimalDigits = stringNumber.split(',')[1];
+        let integerDisplay;
+        if (isNaN(integerDigits)) integerDisplay = '';
+        else integerDisplay = integerDigits.toLocaleString('en', {
+            maximumFractionDigits: 0
+        });
+        if (decimalDigits != null) return `${integerDisplay}.${decimalDigits}`;
+        else return integerDisplay;
+    }
+    updateDisplay() {
+        this.currentOperandTextElement.innerText = this.getDisplayNumber(this.currentOperand);
+        if (this.operation != null) this.previousOperandTextElement.innerText = `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`;
+        else this.previousOperandTextElement.innerText = '';
+    }
+}
+exports.default = Calculator;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"JacNc":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule') return;
+        // Skip duplicate re-exports when they have the same value.
+        if (key in dest && dest[key] === source[key]) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["kAaS7","i87aF"], "i87aF", "parcelRequire5be7")
 
