@@ -99,14 +99,16 @@ button {
   .calculator-grid{
     width: 19vmax;
     height: 31vmax;
+  .output {
     padding: 1.2rem 1.3rem;
-    .current-operand {
-      font-size: $font_large;
-      height: 3rem;
-    }
-    .previous-operand {
-      color: $display_font_secondary;
-      font-size: $font_small;
+      .current-operand {
+        font-size: $font_large;
+        height: 3rem;
+      }
+      .previous-operand {
+        color: $display_font_secondary;
+        font-size: $font_small;
+      }
     }
   }
   button {

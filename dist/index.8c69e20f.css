@@ -95,13 +95,15 @@ button:active {
   .calculator-grid {
     width: 19vmax;
     height: 31vmax;
+  }
+  .calculator-grid .output {
     padding: 1.2rem 1.3rem;
   }
-  .calculator-grid .current-operand {
+  .calculator-grid .output .current-operand {
     font-size: 2.8rem;
     height: 3rem;
   }
-  .calculator-grid .previous-operand {
+  .calculator-grid .output .previous-operand {
     color: #da8290;
     font-size: 1rem;
   }
