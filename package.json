@@ -6,8 +6,8 @@
   "homepage": "https://pdoubleu.github.io/calc_js/",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/index.html --dist-dir docs",
+    "deploy": "gh-pages -d docs"
   },
   "keywords": [],
   "author": "",
