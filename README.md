@@ -1,1 +1,3 @@
-# calc_js
+Calculator
+
+Live preview: 
