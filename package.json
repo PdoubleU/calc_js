@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
+  "homepage": "https://pdoubleu.github.io/calc_js",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "gh-pages": "^3.2.3",
     "parcel": "^2.0.0-rc.0"
   }
 }
