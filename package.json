@@ -2,7 +2,6 @@
   "name": "calc_js",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
   "homepage": "https://pdoubleu.github.io/calc_js/",
   "scripts": {
     "start": "parcel",
