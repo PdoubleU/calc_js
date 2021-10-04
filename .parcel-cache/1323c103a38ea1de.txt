@@ -1,5 +1,5 @@
-16265
-71/mnt/d/programowanie/portfolio/js_projects/calc_task/src/variables.scss1633330291798710600 0
+16266
+71/mnt/d/programowanie/portfolio/js_projects/calc_task/src/variables.scss1633349049845011300 0
 64/mnt/d/programowanie/portfolio/js_projects/calc_task/src/main.js1633323421210411900 0
 56/mnt/d/programowanie/portfolio/js_projects/calc_task/src1633328291444897200 1
 65/mnt/d/programowanie/portfolio/js_projects/calc_task/package.json1633324823127745400 0
@@ -2544,7 +2544,7 @@
 101/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/SetFunctionName.js499162500000000000 0
 102/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/modules/es.typed-array.of.js499162500000000000 0
 113/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/modules/es.typed-array.last-index-of.js499162500000000000 0
-68/mnt/d/programowanie/portfolio/js_projects/calc_task/src/styles.scss1633331883448950900 0
+68/mnt/d/programowanie/portfolio/js_projects/calc_task/src/styles.scss1633349303736514800 0
 119/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@babel/types/lib/validators/react/isReactComponent.js456789000000000000 0
 104/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/modules/es.typed-array.join.js499162500000000000 0
 99/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/babylon-walk/lib/types.js499162500000000000 0
@@ -5939,7 +5939,7 @@
 94/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/posthtml-parser/changelog.md499162500000000000 0
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/utils/lib/countLines.js499162500000000000 0
 113/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/babel-ast-utils/test/fixtures/import.js499162500000000000 0
-80/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css.map1633331883615463800 0
+80/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css.map1633349303855882900 0
 108/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@swc/helpers/lib/_sliced_to_array_loose.js1628737830000000000 0
 90/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/is-typedarray/LICENSE.md1401649683000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/ajv/dist/ajv.bundle.js499162500000000000 0
@@ -6581,7 +6581,7 @@
 111/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/babel-ast-utils/test/fixtures/call.js499162500000000000 0
 116/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/caniuse-lite/data/features/css-at-counter-style.js499162500000000000 0
 100/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/htmlnano/lib/modules/minifyUrls.js499162500000000000 0
-68/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.html1633331371278919600 0
+68/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.html1633349270111496300 0
 95/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@nodelib/fs.walk/out/index.js499162500000000000 0
 83/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/des.js/lib/des.js499162500000000000 0
 105/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/caniuse-lite/data/features/png-alpha.js499162500000000000 0
@@ -7628,7 +7628,7 @@
 85/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@types/node/v8.d.ts1632924081000000000 0
 93/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2017/ToUint8.js499162500000000000 0
 114/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lmdb-store/dependencies/lz4/lib/liblz4-dll.rc.in499162500000000000 0
-91/mnt/d/programowanie/portfolio/js_projects/calc_task/heap-20211004-091819-main.heapsnapshot1633331899289898400 0
+91/mnt/d/programowanie/portfolio/js_projects/calc_task/heap-20211004-091819-main.heapsnapshot1633331902702926000 0
 101/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@babel/core/node_modules/semver/bin1633323208348268400 1
 122/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@babel/types/lib/converters/gatherSequenceExpressions.js456789000000000000 0
 95/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/stable/number/virtual1633323220934230900 1
@@ -7897,7 +7897,7 @@
 110/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/workers/lib/threads/ThreadsWorker.js499162500000000000 0
 89/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/uuid/lib/bytesToUuid.js499162500000000000 0
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/ncp/test/regular-fixtures/src/a1417018463000000000 0
-52/mnt/d/programowanie/portfolio/js_projects/calc_task1633331899289898400 1
+52/mnt/d/programowanie/portfolio/js_projects/calc_task1633341774548668400 1
 104/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@nodelib/fs.scandir/out/utils/index.js499162500000000000 0
 129/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/core/test/fixtures/custom-format-infer-ext/package.json499162500000000000 0
 102/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/highlight.js/lib/languages/erlang.js499162500000000000 0
@@ -10429,7 +10429,7 @@
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/HasProperty.js499162500000000000 0
 90/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/node-forge/lib/pbkdf2.js499162500000000000 0
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/cosmiconfig/dist/index.d.ts.map499162500000000000 0
-57/mnt/d/programowanie/portfolio/js_projects/calc_task/dist1633331883617463800 1
+57/mnt/d/programowanie/portfolio/js_projects/calc_task/dist1633349303856886600 1
 85/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/upperCase.js499162500000000000 0
 108/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/jsdom/lib/jsdom/living/helpers/focusing.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/css-tree/data/index.js499162500000000000 0
@@ -11125,7 +11125,7 @@
 114/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/css-declaration-sorter/orders/concentric-css.cjs499162500000000000 0
 98/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2016/IteratorStep.js499162500000000000 0
 87/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/constant.js499162500000000000 0
-79/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.147655b4.js.map1633331371286914400 0
+79/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.147655b4.js.map1633348155613293500 0
 94/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/minimalistic-assert/index.js499162500000000000 0
 135/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/postcss-modules-extract-imports/node_modules/postcss/lib/postcss.d.ts499162500000000000 0
 89/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/fs/src/types.js499162500000000000 0
@@ -11655,7 +11655,7 @@
 84/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/parse-json/license499162500000000000 0
 104/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/features/regexp/constructor.js499162500000000000 0
 104/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2017/SameValueNonNumber.js499162500000000000 0
-67/mnt/d/programowanie/portfolio/js_projects/calc_task/src/index.html1633331283526058400 0
+67/mnt/d/programowanie/portfolio/js_projects/calc_task/src/index.html1633349269994295600 0
 89/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2017/Set.js499162500000000000 0
 77/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/request/lib1633323209453183000 1
 101/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2017/SetFunctionName.js499162500000000000 0
@@ -11908,6 +11908,7 @@
 103/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2020/BigInt/bitwiseXOR.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/buffer-xor/.travis.yml1443157866000000000 0
 100/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/IterableToList.js499162500000000000 0
+62/mnt/d/programowanie/portfolio/js_projects/calc_task/README.md1633341774548668400 0
 107/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lmdb-store/dependencies/lz4/lib/README.md499162500000000000 0
 84/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/clone.js499162500000000000 0
 99/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/IteratorClose.js499162500000000000 0
@@ -13414,7 +13415,7 @@
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/highlight.js/lib/languages/q.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/minimist/test/proto.js499162500000000000 0
 94/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/is-typed-array/.eslintignore499162500000000000 0
-76/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css1633331883613461500 0
+76/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css1633349303853884100 0
 99/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/highlight.js/lib/languages/qml.js499162500000000000 0
 81/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/eq.js499162500000000000 0
 96/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/IsCallable.js499162500000000000 0
@@ -15320,7 +15321,7 @@
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/trimChars.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/trimStart.js499162500000000000 0
 86/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/unionBy.js499162500000000000 0
-75/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.147655b4.js1633331371279917900 0
+75/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.147655b4.js1633348155608293000 0
 84/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/defaults.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/unionWith.js499162500000000000 0
 85/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/unnest.js499162500000000000 0
