@@ -1,5 +1,5 @@
 16266
-71/mnt/d/programowanie/portfolio/js_projects/calc_task/src/variables.scss1633349049845011300 0
+71/mnt/d/programowanie/portfolio/js_projects/calc_task/src/variables.scss1633349645552685100 0
 64/mnt/d/programowanie/portfolio/js_projects/calc_task/src/main.js1633323421210411900 0
 56/mnt/d/programowanie/portfolio/js_projects/calc_task/src1633328291444897200 1
 65/mnt/d/programowanie/portfolio/js_projects/calc_task/package.json1633324823127745400 0
@@ -2544,7 +2544,7 @@
 101/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/SetFunctionName.js499162500000000000 0
 102/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/modules/es.typed-array.of.js499162500000000000 0
 113/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/modules/es.typed-array.last-index-of.js499162500000000000 0
-68/mnt/d/programowanie/portfolio/js_projects/calc_task/src/styles.scss1633349303736514800 0
+68/mnt/d/programowanie/portfolio/js_projects/calc_task/src/styles.scss1633349868514137000 0
 119/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@babel/types/lib/validators/react/isReactComponent.js456789000000000000 0
 104/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/core-js/modules/es.typed-array.join.js499162500000000000 0
 99/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/babylon-walk/lib/types.js499162500000000000 0
@@ -5939,7 +5939,7 @@
 94/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/posthtml-parser/changelog.md499162500000000000 0
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/utils/lib/countLines.js499162500000000000 0
 113/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@parcel/babel-ast-utils/test/fixtures/import.js499162500000000000 0
-80/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css.map1633349303855882900 0
+80/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css.map1633349868659997700 0
 108/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/@swc/helpers/lib/_sliced_to_array_loose.js1628737830000000000 0
 90/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/is-typedarray/LICENSE.md1401649683000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/ajv/dist/ajv.bundle.js499162500000000000 0
@@ -10429,7 +10429,7 @@
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/HasProperty.js499162500000000000 0
 90/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/node-forge/lib/pbkdf2.js499162500000000000 0
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/cosmiconfig/dist/index.d.ts.map499162500000000000 0
-57/mnt/d/programowanie/portfolio/js_projects/calc_task/dist1633349303856886600 1
+57/mnt/d/programowanie/portfolio/js_projects/calc_task/dist1633349868660775300 1
 85/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/upperCase.js499162500000000000 0
 108/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/jsdom/lib/jsdom/living/helpers/focusing.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/css-tree/data/index.js499162500000000000 0
@@ -13415,7 +13415,7 @@
 97/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/highlight.js/lib/languages/q.js499162500000000000 0
 88/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/minimist/test/proto.js499162500000000000 0
 94/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/is-typed-array/.eslintignore499162500000000000 0
-76/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css1633349303853884100 0
+76/mnt/d/programowanie/portfolio/js_projects/calc_task/dist/index.8c69e20f.css1633349868657046700 0
 99/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/highlight.js/lib/languages/qml.js499162500000000000 0
 81/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/lodash/fp/eq.js499162500000000000 0
 96/mnt/d/programowanie/portfolio/js_projects/calc_task/node_modules/es-abstract/2019/IsCallable.js499162500000000000 0

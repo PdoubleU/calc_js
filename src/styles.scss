@@ -18,7 +18,7 @@ body {
 button {
   font-family: inherit;
   font-weight: inherit;
-  font-size: $font_medium;
+  font-size: $font_medium_mobile;
   border: 0;
   padding: 0;
   width: 3rem;
@@ -60,21 +60,20 @@ button {
   border-top-left-radius: $calc_border_radius;
   border-top-right-radius: $calc_border_radius;
   background-color: $display_background;
-  padding: 1.2rem 1.3rem;
+  padding: .8rem;
   .current-operand {
     color: $display_font_main;
-    font-size: $font_large;
+    font-size: $font_large_mobile;
   }
   .previous-operand {
     color: $display_font_secondary;
-    font-size: $font_small;
+    font-size: $font_small_mobile;
     font-weight: 400;
   }
 }
 .btn_zero {
   border-bottom-left-radius: $calc_border_radius;
 }
-
 .btn_enter {
   grid-area: enter;
   width: 6rem;
@@ -94,17 +93,25 @@ button {
   background: $background_gradient_violet;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1090px) {
   .calculator-grid{
     width: 19vmax;
     height: 31vmax;
+    padding: 1.2rem 1.3rem;
+    .current-operand {
+      font-size: $font_large;
+    }
+    .previous-operand {
+      color: $display_font_secondary;
+      font-size: $font_small;
+    }
   }
   button {
     width: 100%;
     height: 100%;
+    font-size: $font_medium;
   }
   .btn_enter {
     width: 100%;
   }
-
 }

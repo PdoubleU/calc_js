@@ -16,7 +16,7 @@ body {
 button {
   font-family: inherit;
   font-weight: inherit;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 0;
   padding: 0;
   width: 3rem;
@@ -52,15 +52,15 @@ button:active {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   background-color: #212121;
-  padding: 1.2rem 1.3rem;
+  padding: 0.8rem;
 }
 .output .current-operand {
   color: #ffffff;
-  font-size: 2.8rem;
+  font-size: 1.6rem;
 }
 .output .previous-operand {
   color: #da8290;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: 400;
 }
 
@@ -89,15 +89,24 @@ button:active {
   background: linear-gradient(60deg, #894eda 0%, #7443b9 100%);
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1090px) {
   .calculator-grid {
     width: 19vmax;
     height: 31vmax;
+    padding: 1.2rem 1.3rem;
+  }
+  .calculator-grid .current-operand {
+    font-size: 2.8rem;
+  }
+  .calculator-grid .previous-operand {
+    color: #da8290;
+    font-size: 1rem;
   }
 
   button {
     width: 100%;
     height: 100%;
+    font-size: 1.2rem;
   }
 
   .btn_enter {
