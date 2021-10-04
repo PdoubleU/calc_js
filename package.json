@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "homepage": "https://pdoubleu.github.io/calc_js/dist",
+  "homepage": "https://pdoubleu.github.io/calc_js/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
