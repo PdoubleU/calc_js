@@ -462,6 +462,7 @@ const numberButtons = document.querySelectorAll('[data-number]');
 const operationButtons = document.querySelectorAll('[data-operation]');
 const equalsButton = document.querySelector('[data-equals]');
 const clearButton = document.querySelector('[data-clear]');
+const negativeButton = document.querySelector('[data-negative]');
 const previousOperandTextElement = document.querySelector('[data-previous-operand]');
 const currentOperandTextElement = document.querySelector('[data-current-operand]');
 const calculator = new _calculatorDefault.default(previousOperandTextElement, currentOperandTextElement);
@@ -477,14 +478,16 @@ operationButtons.forEach((button)=>{
         calculator.updateDisplay();
     });
 });
-equalsButton.addEventListener('click', (button)=>{
+equalsButton.addEventListener('click', ()=>{
     calculator.compute();
     calculator.updateDisplay();
 });
-clearButton.addEventListener('click', (button)=>{
+clearButton.addEventListener('click', ()=>{
     calculator.clear();
     calculator.updateDisplay();
 });
+negativeButton.addEventListener('click', ()=>calculator.appendSymbol()
+);
 
 },{"./Calculator":"cDoSJ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cDoSJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -496,17 +499,29 @@ class Calculator {
         this.clear();
     }
     clear() {
-        console.log('clear screen');
         this.currentOperand = '';
         this.previousOperand = '';
         this.operation = undefined;
     }
+    isInputTooLong(currentInput) {
+        return currentInput.replaceAll(/\s/g, '').length > 7 ? true : false;
+    }
+    appendSymbol() {
+        if (!this.currentOperand.length) {
+            this.currentOperand = '-';
+            return this.updateDisplay();
+        }
+        if (this.currentOperand === '-') {
+            this.currentOperand = '';
+            return this.updateDisplay();
+        }
+    }
     appendNumber(number) {
+        if (this.isInputTooLong(this.currentOperandTextElement.innerText)) return;
         if (number === ',' && this.currentOperand.includes(',')) return;
         this.currentOperand = this.currentOperand.toString() + number.toString();
     }
     chooseOperation(operation) {
-        console.log(operation);
         if (this.currentOperand === '') return;
         if (this.previousOperand !== '') this.compute();
         this.operation = operation;
@@ -515,8 +530,8 @@ class Calculator {
     }
     compute() {
         let computation;
-        const prev = parseFloat(this.previousOperand);
-        const current = parseFloat(this.currentOperand);
+        const prev = parseFloat(this.previousOperand?.replace(/,/, '.'));
+        const current = parseFloat(this.currentOperand?.replace(/,/, '.'));
         if (isNaN(prev) || isNaN(current)) return;
         switch(this.operation){
             case '+':
@@ -539,15 +554,18 @@ class Calculator {
         this.previousOperand = '';
     }
     getDisplayNumber(number) {
-        const stringNumber = number.toString();
-        const integerDigits = parseFloat(stringNumber.split('.')[0]);
-        const decimalDigits = stringNumber.split(',')[1];
+        if (number === '-') return number;
         let integerDisplay;
+        const stringNumber = number.toString();
+        const integerDigits = /\./.test(stringNumber) ? parseFloat(stringNumber.split('.')[0]) : parseFloat(stringNumber.split(',')[0]);
+        const decimalDigits = /\./.test(stringNumber) ? stringNumber.split('.')[1] : stringNumber.split(',')[1];
         if (isNaN(integerDigits)) integerDisplay = '';
-        else integerDisplay = integerDigits.toLocaleString('en', {
+        else integerDisplay = integerDigits.toLocaleString('pl-PL', {
             maximumFractionDigits: 0
         });
-        if (decimalDigits != null) return `${integerDisplay}.${decimalDigits}`;
+        if (integerDisplay.replaceAll(/\s/g, '').length > 10) return parseInt(integerDisplay.replaceAll(/\s/g, '')).toExponential(4).replace(/\./, ',');
+        if (integerDigits.toLocaleString().length + decimalDigits?.toLocaleString().length > 10) return parseFloat(`${integerDisplay}.${decimalDigits}`).toExponential(4).toString().replace(/\./, ',');
+        if (decimalDigits != null) return `${integerDisplay},${decimalDigits}`;
         else return integerDisplay;
     }
     updateDisplay() {
