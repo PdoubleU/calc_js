@@ -1,0 +1,50 @@
+@import 'variables.scss';
+
+body {
+  background: $callback_background;
+  background: $main_background;
+  display: flex;
+}
+
+button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+}
+
+.calculator-grid {
+  margin: auto;
+  display: grid;
+  width: 12rem;
+  gap: 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas:
+    "display display display display"
+    "display display display display"
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . enter enter"
+    ;
+}
+
+.output {
+  grid-area: display;
+  background-color: $display_background;
+  .current-operand {
+    color: $display_font_main;
+  }
+  .previous-operand {
+    color: $display_font_secondary;
+  }
+}
+
+.btn_enter {
+  grid-area: enter;
+  width: 6rem;
+}
