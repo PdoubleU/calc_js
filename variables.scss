@@ -1,0 +1,42 @@
+// backgrounds:
+$callback_background: #9157e1;
+$main_background: linear-gradient(103deg, #9157e1 0%, #ff9768 100%);
+$display_background: #212121;
+$shadow_btn_hover: 0 0 1.5px #444444;
+
+//fonts:
+$font-family: Lato, Helvetica;
+$display_font_main: #ffffff;
+$display_font_secondary: #da8290;
+
+//fonts sizes small screens:
+$font_small_mobile: .6rem;
+$font_medium_mobile: 1rem;
+$font_large_mobile: 1.6rem;
+//fonts sizes large screens:
+$font_small: 1rem;
+$font_medium: 1.2rem;
+$font_large: 2.8rem;
+
+//keyboard:
+$keyboard_font_main:#444444;
+$keyboard_font_secondary: #f1edf9;
+
+//operators buttons:
+$addition: #894eda;
+$substraction: #894eda;
+$multiplication: #8d52de;
+$division: #9156e2;
+$enter_btn: #e62f89;
+
+//buttons:
+$callback_background_grey: #f7f7f7;
+$callback_background_violet: #894eda;
+$callback_background_pink: #e62f89;
+$background_gradient_grey: linear-gradient(115deg, #f7f7f7 0%, #e7e7e7 100%);
+$background_gradient_violet: linear-gradient(60deg, #894eda 0%, #7443b9 100%);
+$background_gradient_pink: linear-gradient(115deg, #e62f89 0%, #c92979 100%);
+
+//borders, radius:
+$calc_border_radius: 4px;
+$hover_border: #898989;
